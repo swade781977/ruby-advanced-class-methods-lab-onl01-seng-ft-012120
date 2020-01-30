@@ -16,8 +16,8 @@ class Song
     newSong
   end
   def self.new_by_name(name)
-    name = Song.new
-    @name = name
-    @all << @name 
+    newSong = Song.new
+    attr_writer :name, "#{name}"
+    @all << newSong 
   end
 end
