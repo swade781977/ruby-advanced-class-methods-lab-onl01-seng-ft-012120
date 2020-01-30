@@ -18,6 +18,6 @@ class Song
   def self.new_by_name(name)
     name = Song.new
     @name = name
-    @all << name 
+    @all << @name 
   end
 end
