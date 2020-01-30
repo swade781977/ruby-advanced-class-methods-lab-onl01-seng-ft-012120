@@ -28,6 +28,6 @@ class Song
     newSong
   end
   def self.find_by_name(name)
-    @@all.find(name)
+    @@all.
   end
 end
