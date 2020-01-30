@@ -15,5 +15,8 @@ class Song
     @@all << newSong
     newSong
   end
-
+  def self.new_by_name(name)
+    name = Song.new 
+    @all << name 
+  end
 end
