@@ -35,7 +35,7 @@ class Song
     find_by_name(name) || create_by_name(name)
   end
   def self.alphabetical
-    @@all.map.sort
+    
   end
 end
 
