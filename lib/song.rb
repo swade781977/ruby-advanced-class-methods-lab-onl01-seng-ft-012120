@@ -37,12 +37,6 @@ class Song
   def self.alphabetical
     @@all.map.sort
   end
-  
 end
 
-
-song_1 = Song.create_by_name("Thriller")
-song_2 = Song.create_by_name("Blank Space")
-song_3 = Song.create_by_name("Call Me Maybe")
-Song.all
 
