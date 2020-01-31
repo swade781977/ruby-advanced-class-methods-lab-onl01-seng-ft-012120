@@ -36,6 +36,6 @@ class Song
   end
   def self.alphabetical
     @@all.map.sort
-  binding.pry
   end
+  binding.pry
 end
